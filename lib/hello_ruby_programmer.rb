@@ -1,5 +1,3 @@
-def greeting
-  puts "Hello, what's your name?"
-  name = gets.chomp
+def greeting(name)
   puts "Hi, #{name}! Welcome to the wonderful world of Ruby programming."
 end
